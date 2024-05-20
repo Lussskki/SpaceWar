@@ -2,17 +2,27 @@ import pygame
 import os
 import sys
 
+
+
 pygame.init()
 pygame.font.init()
 pygame.mixer.init()
 
 WIDTH, HEIGHT = 900, 500
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption('Space war')
+pygame.display.set_caption('SpaceWar')
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 RED = (255, 0, 0)
 YELLOW = (255, 255, 0)
+
+ICON_PATH = 'C:/Users/user/Desktop/python/Spacewar/Assets/spaceship_red.ico'
+if os.path.exists(ICON_PATH):
+    ICON = pygame.image.load(ICON_PATH)
+    pygame.display.set_icon(ICON)
+else:
+    print(f"Icon file not found at path: {ICON_PATH}")
+
 
 BORDER = pygame.Rect(WIDTH // 2, 0, 10, HEIGHT)
 
