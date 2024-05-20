@@ -24,7 +24,7 @@ To run the game, you need Visual Studio Code or any other IDE that supports Pyth
 
 Second way is for play is Google Drive link: https://drive.google.com/file/d/1ZE1tuCIBr2ShddQsSS4xpfwIwLLMOy2l/view?usp=sharing
 
-To run the game, you need download from this link, just open exe file and enjoy.
+To run the game, you need download from this link, copy the exe file to repository and than play.
 
 ## Instructions
 
