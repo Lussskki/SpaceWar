@@ -45,7 +45,7 @@ YELLOW_SPACESHIP = pygame.transform.rotate(pygame.transform.scale(YELLOW_SPACESH
 RED_SPACESHIP = pygame.image.load(os.path.join('C:/Users/user/Desktop/python/Spacewar/Assets', 'spaceship_red.png'))
 RED_SPACESHIP = pygame.transform.rotate(pygame.transform.scale(RED_SPACESHIP, (SPACESHIP_WIDTH, SPACESHIP_HEIGHT)), 270)
 FPS = 60
-SPACE = pygame.transform.scale(pygame.image.load(os.path.join('C:/Users/user/Desktop/python/Spacewar/Assets', 'space.png')), (WIDTH, HEIGHT))
+SPACE = pygame.transform.scale(pygame.image.load(os.path.join('C:/Users/user/Desktop/python/Spacewar/Assets', 'crab_nebula.jpg')), (WIDTH, HEIGHT))
 
 
 def draw_window(red, yellow, red_bullets, yellow_bullets, red_health, yellow_health):
