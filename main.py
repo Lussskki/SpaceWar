@@ -148,6 +148,7 @@ def main():
                 yellow_health -= 1
                 BULLET_HIT_SOUND.play()
 
+        draw_window(red, yellow, red_bullets, yellow_bullets, red_health, yellow_health)
         winner_text = ''
         if red_health <= 0:
             winner_text = 'Yellow wins!'
@@ -161,7 +162,6 @@ def main():
         yellow_handle_movement(keys_pressed, yellow)
         red_handle_movement(keys_pressed, red)
         handle_bullet(yellow_bullets, red_bullets, yellow, red)
-        draw_window(red, yellow, red_bullets, yellow_bullets, red_health, yellow_health)
 
     while True:
         for event in pygame.event.get():
