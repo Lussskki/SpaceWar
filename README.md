@@ -20,11 +20,7 @@ Before running the game, you need to install the Pygame library. You can install
 
 ## Usage
 
-To run the game, you need Visual Studio Code or any other IDE that supports Python. Simply open the project in your IDE, then press the play button to start the game.
-
-Second way  for play is Google Drive link: https://drive.google.com/drive/folders/1td2c6Thp9rOy0Nu68Xyw1rdc1ruGMeDh?usp=sharing
-
-To run the game, you need download from this link, open folder/output/SpaceWar.exe and enjoy .
+To run the game, you just need to open 'PlaySpaceWar.bat' file and enjoy.
 
 ## Instructions
 
