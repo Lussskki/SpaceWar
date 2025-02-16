@@ -20,7 +20,7 @@ Before running the game, you need to install the Pygame library. You can install
 
 ## Usage
 
-To run the game, you just need to open 'PlaySpaceWar.bat' file and enjoy. bat file allows you play only on windows.
+To run the game, you just need to open 'SpaceWar.exe' in this repo and enjoy. exe file allows to play.
 
 ## Instructions
 
